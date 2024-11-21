@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+   /* padding: 0; */
+    box-sizing: border-box;
+}
+
+section h1,
+section p,
+section h4 {
+    color: aliceblue;
+    text-align: center;
+    line-height: 3;
+}
+section {
+    background-size: cover;
+    background-image: url(../img/1.avif);
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+article {
+    margin-left: 15px;
+    margin-top: 15px;
+    
+}
+
+article h2,
+article p, 
+article ul,
+article h4 {
+    line-height: 3;
+
+}
+
+article {
+    margin-top: 60px;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-image: url(/assets/img/2.avif)
+    
+}

@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+html {
+    font-size: 30px;
+}
+
+ul {
+    margin: 20px;
+    list-style: none;
+}
+
+ul li:nth-child(3),
+ul li:nth-child(4) {
+    background-color: #4FC3F7;
+    margin-right: 250px;
+
+}
+
+section {
+margin-top: 10%;
+margin-left: 30%;
+}
+
+h1:hover::first-letter {
+    color: #4FC3F7;
+}
+
+h1::first-letter {
+    color: #00796B;
+    font-size: 3em;
+    
+    
+}
+    
+li:nth-of-type(1) {
+    text-decoration: line-through;
+}
+li:nth-of-type(2) {
+    text-decoration: line-through;
+}
+
+li:nth-of-type(5) {
+    text-decoration: underline;
+}
+li:nth-of-type(6) {
+    text-decoration: underline;
+}
+
+li:nth-of-type(1)::before {
+    content: url(/assets/img/check.png)
+}
+li:nth-of-type(1)::after {
+    content: url(/assets/img/gym.png)
+}
+
+li:nth-of-type(2)::before {
+    content: url(/assets/img/check.png)
+}
+li:nth-of-type(2)::after {
+    content: url(/assets/img/bill.png)
+}
+
+li:nth-of-type(3)::before {
+    content: url(/assets/img/doing.png)
+}
+li:nth-of-type(3)::after {
+    content: url(/assets/img/dance.png)
+}
+
+li:nth-of-type(4)::before {
+    content: url(/assets/img/doing.png)
+}
+li:nth-of-type(4)::after {
+    content: url(/assets/img/eat.png)
+}
+
+li:nth-of-type(5)::before {
+    content: url(/assets/img/no.png)
+}
+li:nth-of-type(5)::after {
+    content: url(/assets/img/book.png)
+}
+
+li:nth-of-type(6)::before {
+    content: url(/assets/img/no.png)
+}
+li:nth-of-type(6)::after {
+    content: url(/assets/img/organize.png)
+}
